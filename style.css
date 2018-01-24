@@ -1,0 +1,75 @@
+body{
+     background-image: url(http://www.mshgroup.co.uk/wp-content/uploads/2017/04/iStock-520886540-e1493108919696.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+ h1 {
+     font-size: 40px;
+     font-family: Droid Sans;
+     font-weight:800 ;
+     color: #02002d;
+     text-align: center;
+     margin-top:1cm;
+}
+ li{
+     list-style: none;
+}
+ label{
+     font-size: 18px;
+}
+ #form{
+     background-color: #27c6db;
+     height: 750px;
+     width: 600px;
+     margin-left:auto;
+     margin-right:auto;
+     padding: 5px 40px 40px 40px;
+     opacity: 0.8;
+     margin-top: -1cm;
+     text-align: left;
+}
+ form ul li input, select, span {
+     margin-bottom: 20px;
+     height: 40px;
+     width: 400px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-family: sans-serif;
+}
+ form textarea {
+     float: left;
+     width: 350px;
+     height: 150px;
+}
+ [type="submit"] {
+     
+     margin: 20px 225px;
+     font-size:20px
+     padding-left: 100px;
+     padding-right: 70px;
+     height: 50px;
+     border-radius: 5px;
+
+}
+ [type="submit"]:hover{
+     background-color: #022833;
+     color: white;
+}
+ p {
+     margin-left: 70px;
+     font-weight: bold;
+}
+ text{
+     height: 40px;
+     width: 400px !important;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+.conditions{
+
+     font-size: 15px;
+     margin-top: -25px;
+     margin-left: 40px;
+     font-family: sans-serif;
+}
