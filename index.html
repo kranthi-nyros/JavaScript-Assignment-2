@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="Sample registration form" />
+      <meta name="author" content="KRANTHI KUMAR">
+      <title>JavaScript Form Validation using a sample registration form</title>      
+      <link rel='stylesheet' href='style.css' type='text/css'/>
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid Sans">
+      <script src="script.js"></script>
+   </head>
+   <body onload="document.registration.userid.focus();">
+     
+      <div id="form">
+      <h1>Registration Form</h1>
+      <form name='registration' id="myform" onSubmit="return formValidation();">
+         <ul>
+            <li><label for="userid"> First Name:</label></li>
+            <li><input type="text" name="userid" size="12" placeholder="Enter First Name " /></li>
+            <li><label for="username">Last Name:</label></li>
+            <li><input type="text" name="username" size="50" placeholder="Enter Last Name " /></li>
+            <li><label for="email">Email:</label></li>
+            <li><input type="text" name="email" size="50" placeholder="name@gmail.com " /></li>
+            <li><label for="phonenumber">Phone:</label></li>
+            <li><input type="'text' " name="phonenumber" id='phone' size="12" placeholder="200-500-2356 " /></li>
+            <li><label for="country">Country:</label></li>
+            <li>
+               <select name="country">
+                  <option selected="" value="Default">(Please select a country)</option>
+                  <option value="AF">Australia</option>
+                  <option value="AL">Canada</option>
+                  <option value="DZ">India</option>
+                  <option value="AS">Russia</option>
+                  <option value="AD">USA</option>
+               </select>
+            </li>
+            <label id="gender">Gender:</label>
+            <input type="radio" name="msex" value="Male" /><span>Male</span>
+            <input type="radio" name="fsex" value="Female" /><span>Female</span><br> 
+            <input type="checkbox" name="checkbox" value="check" id="checkbox"  style="zoom:2.0; margin-top: 10px;"/> 
+            <p class ="conditions">I have read and agree to the Terms and Conditions and Privacy Policy</p><br> 
+            <input type="submit" name="submit" value="SUBMIT" style=" font-size: 15px"/>
+         </ul>
+      </form>
+      
+   </body>
+   </html
